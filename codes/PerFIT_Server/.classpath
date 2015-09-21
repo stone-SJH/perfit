@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/cglib-full-2.0.2.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/ehcache.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/freemarker-2.3.19.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/hibernate3.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/hibernate-core-4.1.9.Final.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/jboss-transaction-api_1.1_spec-1.0.0.Final.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="X:/web/project/Server/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

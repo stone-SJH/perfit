@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<!-- 配置SessionFactory -->
+	<session-factory>
+		<!-- JDBC连接URL -->
+		<property name="connection.url">jdbc:mysql://localhost:3306/perfit</property>
+		<!-- 数据库用户名 -->
+		<property name="connection.username">root</property>
+		<!-- 数据库密码 -->
+		<property name="connection.password"></property>
+		<!-- 数据库JDBC驱动类名 -->
+		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+		<!-- 数据库别名 -->
+		<property name="dialect">
+			org.hibernate.dialect.MySQLDialect
+		</property>
+		<property name="connection.characterEncoding">gbk</property>
+	<!--  <property name="show_sql">true</property> -->	
+	<!--  <property name="hbm2ddl.auto">create</property>  -->
+		
+		<mapping resource="perfit/util/model/user.hbm.xml" /></session-factory>
+</hibernate-configuration>

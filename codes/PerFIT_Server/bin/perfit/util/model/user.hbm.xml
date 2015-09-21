@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="perfit.util.model">
+	<!-- 定义实体 -->
+	<class name="User" table="user">
+		<!-- 定义主键及其生成策略 -->
+		<id name="ID" column="ID" >
+			<generator class="native" />
+		</id>
+		<!-- 定义数量字段 -->
+		<property name="username"/>
+		<property name="password"/>
+		<property name="nickname"/>
+		<property name="sex"/>
+		<property name="age"/>
+		<property name="height"/>
+		<property name="weight"/>
+		<property name="armspread"/>
+		<property name="date"/><property name="clientpath"></property>
+	</class>
+</hibernate-mapping>
